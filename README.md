@@ -1,35 +1,43 @@
-# React + TypeScript + Vite
+# Watch!t
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern web application for discovering and managing TV shows.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Watch!t is a responsive web application that allows users to discover TV shows, explore detailed information and manage their favourite titles.
 
-## React Compiler
+The application integrates with an external TV shows API to provide access to show information and popular titles. Users can search for TV shows, browse available content and save their favourite titles for convenient access.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Built with React and TypeScript, the application focuses on reusable components, efficient data fetching and a clean, responsive user interface. React Router handles application navigation, while TanStack Query manages API requests and caching to improve data handling and reduce unnecessary network requests.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## Project Details
 
-## Expanding the Oxlint configuration
+- **Role:** Frontend Developer
+- **Project Type:** Non-commercial
+- **Category:** Web Application
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Technologies Used
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- TanStack Query
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Key Features
+
+- Search TV shows by title
+- Browse popular TV shows
+- View detailed information about shows
+- Add and manage favourite shows
+- Responsive design
+- Optimized API data fetching and caching
+
+## What I Learned
+
+Developed skills in API integration, asynchronous data fetching, server-state management, caching strategies, reusable React components and TypeScript. Gained practical experience in building a structured application with React Router and TanStack Query.
+
+
+## Author
+
+Arkadiusz Barnak
